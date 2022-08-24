@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* FONTS */
+  --titulo: 28px;
+  --subtitulo: 20px;
+  --list-paragrafo: 16px;
+  --legenda: 12px;
+
+  /* MARGINS */
+  --mg-titulo: 30px 0;
+}
+
+html {
+  background-color: #eaeaea;
+}
+
+body {
+  background: #fff;
+  font-family: 'Roboto', sans-serif;
+  width: 800px;
+  margin: 40px auto;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 43px 101px 17px rgba(0,0,0,0.17);
+  -moz-box-shadow: 0px 43px 101px 17px rgba(0,0,0,0.17);
+  box-shadow: 0px 43px 101px 17px rgba(0,0,0,0.17);
+}
+
+header {
+  width: 90%;
+  margin: 0 auto;
+}
+
+header img {
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 10px 134px 15px rgba(0,0,0,0.10);
+  -moz-box-shadow: 0px 10px 134px 15px rgba(0,0,0,0.10);
+  box-shadow: 0px 10px 134px 15px rgba(0,0,0,0.10);
+}
+
+header figcaption {
+  font-size: var(--legenda);
+  text-align: right;
+  color: gray;
+}
+
+hr {
+  width: 90%;
+  margin: 30px auto;
+  border: 1px solid #e8e8e6;
+}
+
+main {
+  width: 90%;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+#titulo {
+  font-size: var(--titulo);
+  padding: var(--mg-titulo);
+  text-align: center;
+}
+
+.subtitulo {
+  font-size: var(--subtitulo);
+  padding: var(--mg-titulo);
+  text-align: center;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+footer {
+  width: 100%;
+  background: #424242;
+  margin: 0 auto;
+  border-radius:0 0 20px 20px;
+}
+
+#footer-container {
+  color: white;
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+footer p {
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+}
+
+footer a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+footer a:hover {
+  transition-duration: 2s;
+  text-decoration: underline;
+  font-size: 25px;
+}
+
+@media (max-width: 800px) {
+  body {
+    width: 90%;
+  }
+
+  header {
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  header img {
+    width: 100%;
+  }
+
+  main {
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  footer {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #footer-container {
+    width: 85%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+  }
+
+  footer a {
+    text-decoration: underline;
+  }
+
+  footer a:hover {
+    transition-duration: 0s;
+    color: gray;
+    font-size: 20px;
+  }
+}
