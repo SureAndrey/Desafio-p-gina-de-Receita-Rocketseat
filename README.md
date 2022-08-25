@@ -7,4 +7,4 @@ Nesse desafio você deverá criar uma página web de uma receita com título, im
 ---
 
 - [Link do desafio na Rocketseat](https://app.rocketseat.com.br/discover/challenges/cookbook)
-- [Link do desafio feito](https://sureandrey.github.io/Desafio-P-gina-de-Receita-Rocketseat/)
+- [Link do desafio feito](https://sureandrey.github.io/Desafio-p-gina-de-Receita-Rocketseat/)
